@@ -10,7 +10,7 @@ interface SidebarItemProps {
   href: string;
 }
 
-function SidebarItem({ icon: Icon, label, active, href }: SidebarItemProps) {
+const SidebarItem: React.FC<SidebarItemProps> = ({icon: Icon, label, active, href}) => {
   return (
     <Link
       href={href}
