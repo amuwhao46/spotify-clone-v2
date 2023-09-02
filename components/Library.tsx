@@ -2,7 +2,7 @@
 
 import React from "react";
 import { TbPlaylist } from "react-icons/tb";
-import { AiOutlinePlus, aiOutlinePlus } from "react-icons/ai";
+import { AiOutlinePlus } from "react-icons/ai";
 
 type Props = {};
 
